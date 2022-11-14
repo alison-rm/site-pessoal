@@ -1,0 +1,172 @@
+body {
+    margin: 0%;
+    padding-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    width: 100%; /* largura */
+    background-color: rgb(254, 254, 254); /* Cor de fundo */
+    box-shadow: 1px 1px 10px #926402;
+    padding: 10px; /* margem dentro do objeto*/
+    box-sizing: border-box;
+    position: absolute;
+    top: 0%;
+}
+header nav {
+    float: right;
+    margin-top: 30px;
+}
+header nav a {
+    text-decoration: none;
+    color: #926402;
+    margin: 15px;
+    
+}
+header nav a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.logo {   
+    cursor: pointer;
+    margin: 0 20px 0 20px;  
+}
+
+.sobre {
+    padding-top: 20px;
+    padding-bottom: 85px;
+    margin: 50px 50px 50px 50px;
+    background-color:  #e7e7e7;
+}
+
+.formacao {
+    padding-top: 20px;
+    padding-bottom: 85px;
+    margin: 50px 50px 50px 50px;
+    background-color:  #e7e7e7;
+}
+
+h1 {
+    font-size: 38px;
+    margin: 80px 300px 50px 300px;    
+}
+
+.sobre a {
+    width: 40%;
+    padding: 10px 50px;
+    background: #926402;
+    color:white;
+    font-size: 14px;
+    border: none;
+    transition: 1s all;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0px 300px 0 300px;
+}
+
+.paragrafoSobre {
+    line-height: 1.9;
+    margin: 20px 300px 50px 300px;
+    height: 202px;
+}
+
+.esquerda {
+    width: 40%;
+    float: right;
+    line-height: 1.7;
+    font-size: 15px;
+    margin: 0 135px 0 10px;
+}
+
+.direita {
+    width: 45%;
+    margin-left: 300px;
+    margin-top: 70px;
+    font-size: 16px;
+}
+
+footer {
+    clear: left;
+    text-align: center;
+    width: 100%; /* largura */
+    background-color: rgb(254, 254, 254); /* Cor de fundo */
+    box-shadow: 1px 1px 10px #926402;
+    padding: 0.5px; /* margem dentro do objeto*/
+    box-sizing: border-box;
+}
+
+footer i:hover {
+    color: black;
+}
+
+.copyright {
+    color: #926402;
+    font-size: 13px;
+    margin: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 10px;
+    color: #926402;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width:420px){
+    header {
+        text-align: center;
+        display: inline-block;
+    }
+    header nav a {
+        margin: 10px;
+    }
+    main {
+        width: 100%;
+        margin-top: 70px;
+    }
+    .sobreMargem h1 {
+        margin: 10px 0 10px 75px;
+    }
+    .paragrafoSobre {
+        
+        margin: 10px 10px 270px 10px
+    }
+    .sobre a {
+        margin: 85px;
+    }
+    .sobre{
+        padding-bottom: 50px;
+        margin: 20px 20px 20px 20px;
+    }
+    .formacao {
+        width: auto;
+        margin: 20px;
+        padding-bottom: 1350px;
+        padding-right: 110px;
+    }
+    .formacao h1 {
+        margin: 10px 0 10px 45px;
+    }
+    .esquerda {
+        width: auto;
+        margin: 20px 0px 20px 0px;
+    }
+    
+    .integradoDireita, .uninaDireita, .uniparDireita {
+        display: none;
+    }
+    footer {
+        clear: right;
+    }
+    .integrado p, .unina p, .unipar p {
+        width: 100%;
+        margin: 10px;
+        padding-right: 5px;
+    }
+    .mobile {
+        display: block;
+        font-weight: bold;
+    }
+}
