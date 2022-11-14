@@ -1,0 +1,150 @@
+body {
+    margin: 0%;
+    padding-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    width: 100%; /* largura */
+    background-color: rgb(254, 254, 254); /* Cor de fundo */
+    box-shadow: 1px 1px 10px #926402;
+    padding: 10px; /* margem dentro do objeto*/
+    box-sizing: border-box;
+    position: absolute;
+    top: 0%;
+}
+header nav {
+    float: right;
+    margin-top: 30px;
+}
+header nav a {
+    text-decoration: none;
+    color: #926402;
+    margin: 15px;
+    
+}
+header nav a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.logo {   
+    cursor: pointer;
+    margin: 0 20px 0 20px;  
+}
+
+main {
+    margin: 50px 50px 50px 50px;
+    background-color:  #e7e7e7;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.html img {
+    max-width: 280px;
+    width: auto;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 250px;
+    padding-right: 30px
+}
+
+.gitHub img {
+    clear: left;
+    max-width: 280px;
+    width: auto;
+    float: left;
+    padding-right: 30px;
+    padding-left: 250px;
+    padding-top: 80px;
+}
+
+.construct3 img {
+    clear: left;
+    max-width: 280px;
+    width: auto;
+    float: left;
+    padding-right: 30px;
+    padding-left: 250px;
+    padding-top: 80px;
+}
+
+.paragrafoHtml, .paragrafoGitHub, .paragrafoConstruct3 {
+    line-height: 2.5;
+    font-size: 15px;
+}
+
+.paragrafoHtml {
+    margin: 50px;
+    padding-right: 200px;
+}
+
+.paragrafoGitHub {
+    margin: 50px;
+    padding-top: 160px;
+    padding-right: 200px;
+}
+
+.paragrafoConstruct3 {
+    padding-top: 150px;
+    padding-right: 200px;
+}
+
+.linkHtml, .linkGitHub, .linkConstruct3 {
+    color: #926402;
+    text-decoration: none;
+}
+
+.linkHtml:hover, .linkGitHub:hover, .linkConstruct3:hover {
+    color: black;
+}
+
+footer {
+    clear: left;
+    text-align: center;
+    width: 100%; /* largura */
+    background-color: rgb(254, 254, 254); /* Cor de fundo */
+    box-shadow: 1px 1px 10px #926402;
+    padding: 0.5px; /* margem dentro do objeto*/
+    box-sizing: border-box;
+}
+
+footer i:hover {
+    color: black;
+}
+
+.copyright {
+    color: #926402;
+    font-size: 13px;
+    margin: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 10px;
+    color: #926402;
+}
+
+@media (max-width:420px){
+    header {
+        text-align: center;
+        display: inline-block;
+    }
+    header nav a {
+        margin: 10px;
+    }
+    main {
+        margin: 20px;
+        margin-top: 70px;
+    }
+    .html img, .gitHub img, .construct3 img {
+        max-width: 150px;
+        width: auto;
+        padding-left: 28%;
+        padding-top: 20px;
+    }
+    .paragrafoHtml, .paragrafoGitHub, .paragrafoConstruct3 {
+        margin: 10px;
+        padding: 10px;
+    }
+
+}
